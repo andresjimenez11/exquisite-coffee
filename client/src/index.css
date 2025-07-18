@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .main-button {
+        @apply bg-secondary hover:bg-secondary-dark text-white w-full mt-5 p-3 uppercase font-semibold cursor-pointer rounded-sm
+    }
+
+    .modal-button {
+        @apply bg-secondary hover:bg-secondary-dark px-10 py-3 mt-5 text-white font-semibold uppercase rounded-sm
+    }
+    .price {
+        @apply mt-5 font-black text-4xl text-primary
+    }
+    /* ... */
+  }

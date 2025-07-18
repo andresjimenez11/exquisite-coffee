@@ -1,0 +1,46 @@
+# === CLIENT (React/Vite) ===
+client/logs/
+client/*.log
+client/npm-debug.log*
+client/yarn-debug.log*
+client/yarn-error.log*
+client/pnpm-debug.log*
+client/lerna-debug.log*
+client/.env
+client/node_modules/
+client/dist/
+client/dist-ssr/
+client/*.local
+
+# === SERVER (Laravel) ===
+server/.phpunit.cache
+server/node_modules/
+server/public/build/
+server/public/hot/
+server/public/storage/
+server/storage/*.key
+server/vendor/
+server/.env
+server/.env.backup
+server/.env.production
+server/.phpunit.result.cache
+server/Homestead.json
+server/Homestead.yaml
+server/auth.json
+server/npm-debug.log
+server/yarn-error.log
+server/.fleet/
+server/.idea/
+server/.vscode/
+
+# === COMMON / ROOT LEVEL ===
+.DS_Store
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.log
